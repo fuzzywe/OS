@@ -14,10 +14,10 @@ Efficient Data Sharing:
 Shared memory allows multiple processes to share data without the need for copying data between processes. This reduces the overhead associated with data transfer and improves performance.
 Inter-Process Communication (IPC):
 
-Shared memory is one of the fastest methods for IPC. It enables processes to communicate by reading from and writing to the same memory space, which is much faster than other IPC mechanisms like pipes, message queues, or sockets.
+#f03c15 Shared memory is one of the fastest methods for IPC. It enables processes to communicate by reading from and writing to the same memory space, which is much faster than other IPC mechanisms like pipes, message queues, or sockets.
 Synchronization:
 
-+ textShared memory often requires synchronization mechanisms, such as semaphores, mutexes, or condition variables, to ensure that processes do not interfere with each other when accessing shared data. These mechanisms help manage concurrent access to shared memory. 
+textShared memory often requires synchronization mechanisms, such as semaphores, mutexes, or condition variables, to ensure that processes do not interfere with each other when accessing shared data. These mechanisms help manage concurrent access to shared memory. 
 Reduced Latency:
 
 Since data is directly accessed in memory, shared memory reduces the latency associated with data transfer compared to other IPC methods that involve copying data between processes.
