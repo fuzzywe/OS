@@ -29,3 +29,8 @@ Analogy:
 Think of a system call as a customer (user-space program) asking a bank teller (the kernel) to perform an operation. The teller acts as the intermediary who has the authority to access the vault (hardware or system resources).
 
 Would you like details on any specific system call or its implementation in a particular operating system?
+
+
+why system calls matters
+
+because accessing the hardware safely.
