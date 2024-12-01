@@ -3,7 +3,7 @@
 ---
 
 ### **1. Process Synchronization**
-Process synchronization refers to the coordination of processes to ensure that they execute in a way that avoids conflicts, especially when accessing shared resources. The main goals are:
+Process synchronization refers to the coordination of processes to avoid conflicts, especially when accessing shared resources. The main goals are:
 
 - **Avoiding race conditions:** Ensure that only one process at a time accesses a critical section (a segment of code that modifies shared resources).
 - **Maintaining consistency:** Preserve the integrity of shared data.
